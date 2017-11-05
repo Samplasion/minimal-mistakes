@@ -3,7 +3,7 @@ layout: default
 title: "I injected SMB3Mix into my 3DS!"
 date: 2017-11-05 10:21:00 +0100
 tags: updates, injects, cia, Nintendo
-categories: mods, Nintendo
+categories: mods Nintendo
 author: Samplasion
 comments: true
 ---
