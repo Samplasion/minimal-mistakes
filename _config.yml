@@ -8,7 +8,7 @@
 minimal_mistakes_skin    : "dark" # "default", "air", "contrast", "dark", "dirt", "mint", "sunrise"
 
 # Site Settings
-locale                   : "it
+locale                   : "it"
 title                    : "SamplasionWeb"
 title_separator          : "-"
 name                     : "Samplasion"
