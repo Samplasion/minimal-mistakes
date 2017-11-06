@@ -261,3 +261,20 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+defaults:
+  # _web
+  - scope:
+      path: ""
+      type: web
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+
+# == COLLECTIONS == #
+collections:
+  web:
+    output: true
+    permalink: /:collection/:path/
