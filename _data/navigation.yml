@@ -5,7 +5,7 @@ main:
   - title: "Posts by Category"
     url: /categories/
   - title: "Archive of Pages"
-    url: /web-archive/
+    url: /web/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
