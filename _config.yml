@@ -252,8 +252,6 @@ defaults:
       comments: true
       share: true
       related: true
-
-defaults:
   # _pages
   - scope:
       path: ""
@@ -261,8 +259,6 @@ defaults:
     values:
       layout: single
       author_profile: true
-
-defaults:
   # _web
   - scope:
       path: ""
