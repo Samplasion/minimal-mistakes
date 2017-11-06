@@ -19,7 +19,7 @@ baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
-words_per_minute         : 200
+words_per_minute         : 95
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
@@ -87,6 +87,8 @@ author:
   name             : "Samplasion"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I am an aspirant developer."
+  bio_long         : "I am a 13-year aspirant developer from Rome. My passions are computer, Nintendo and anything computer- and modding-related."
+  gender           : "♂️"
   location         : "Rome, Italy"
   email            : "ercolino2004@gmail.com"
   uri              :
