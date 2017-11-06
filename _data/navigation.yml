@@ -1,12 +1,14 @@
 # main links
 main:
-  - title: "About"
-    url: /about/
   - title: "Posts"
     url: /year-archive/
   - title: "Posts by Category"
-    url: /category/
+    url: /categories/
+  - title: "Archive of Pages"
+    url: /web-archive/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap.xml
+  - title: "About"
+    url: /about/
