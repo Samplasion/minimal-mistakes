@@ -5,7 +5,7 @@ tags: updates cia Nintendo freeShop
 categories: mods Nintendo
 layout: single
 comments: true
-excerpt: "In this post, we'll take a look to the way to update encrypted title keys for freeShop"
+excerpt: "In this post, we'll take a look to the way to update encrypted title keys for freeShop."
 ---
 freeShop is a homebrew that makes easy to download games that you already own from Nintendo's servers, in an open-source way.
 
