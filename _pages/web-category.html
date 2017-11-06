@@ -1,0 +1,14 @@
+---
+layout: archive
+permalink: /web-archive/
+title: "Archive of Pages"
+author_profile: true
+toc: true
+---
+
+{% for web in site.web %}
+  <h3>{{ web.title }}</h3>
+  <small>On {{ web.date | date_to_string }}</small>
+  <p>{{ web.excerpt }}</p>
+  {% include archive-single.html %}
+{% endfor %}
