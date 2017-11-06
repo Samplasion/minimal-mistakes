@@ -9,4 +9,7 @@ excerpt: "In this post, we'll take a look to the way to update encrypted title k
 ---
 freeShop is a homebrew that makes easy to download games that you already own from Nintendo's servers, in an open-source way.
 
-However, that said titles are stored in a file called **encTitleKeys**. This file is illegal tho share and contains all user purchased titles. And here comes to play an homebrew called **freeShop launcher**. At start, that homebrew downloads the latest title keys from [here](http://3ds.titlekeys.gq) and then starts freeShop.
+However, that said titles are stored in a file called **encTitleKeys**. This file is illegal tho share and contains all user purchased titles. And here comes to play an homebrew called **freeShop launcher**. At start, that homebrew downloads the latest title keys from [here](http://3ds.titlekeys.gq) and then starts freeShop, allowing a download of all available _-and not-_ titles on the eShop, even titles of the “Nintendo Ambassadors Program”.
+
+freeShop makes it easy to download DLCs, in a GUI available in many languages.
+You can download freeShop [here](https://freeshop.pw).
