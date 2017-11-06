@@ -18,6 +18,24 @@ $masthead-link-color: $text-color !default;
 $masthead-link-color-hover: mix(#000, $text-color, 20%) !default;
 $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
 
+.page__content {
+  .notice--primary {
+    $background-color: #7d8289;
+  }
+  .notice--info {
+    $background-color: #61818e;
+  }
+  .notice--warning {
+    $background-color: #86625b;
+  }
+  .notice--success {
+    $background-color: #6e806b;
+  }
+  .notice--danger {
+    $background-color: #7d4e58;
+  }
+}
+
 .author__urls.social-icons .fa,
 .page__footer-follow .social-icons .fa {
   color: inherit;
