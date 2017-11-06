@@ -7,7 +7,7 @@ toc: true
 ---
 
 {% for web in site.web %}
-  <h3>{{ web.title }}</h3>
+  <h2><a href="{{ web.url }}">{{ web.title }}</a></h2>
   <small>On {{ web.date | date_to_string }}</small>
   <p>{{ web.excerpt }}</p>
   {% include archive-single.html %}
