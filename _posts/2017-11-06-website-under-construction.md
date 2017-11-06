@@ -1,5 +1,5 @@
 ---
-title: "I injected SMB3Mix into my 3DS!"
+title: "Website under construction..."
 date: 2017-11-06 19:26:00 +0100
 tags: updates
 categories: site
