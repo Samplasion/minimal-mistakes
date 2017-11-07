@@ -1,11 +1,11 @@
 ---
-title: "How to inject a `.cia` in H&S"
+title: "How to inject a .cia in H&S"
 tags: how-tos Nintendo cia
 categories: how-to Nintendo
 date: 2017-11-08 10:18:00 +0100
+excerpt: "In this post, we'll see how to inject a .cia in Health&Safety"
 ---
 _It is written in the GM9 usage page of the "[Holy Guide](https://3ds.guide/godmode9-usage#injecting-any-cia-app-into-health--safety)"_:
-<blockquote>
 ## Injecting any .CIA app into Health & Safety
 
 For organizational purposes, copy the `.cia` file you wish to inject to the `/cias/` folder on your SD card
@@ -21,4 +21,3 @@ Note that it is **not** possible to inject files into Health & Safety that are l
 1. Press (A) to unlock SysNAND (lvl1) writing, then input the key combo given
 1. Press (A) to continue
 1. Press (A) to relock write permissions if prompted
-</blockquote>
