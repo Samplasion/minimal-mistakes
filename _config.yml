@@ -270,6 +270,8 @@ defaults:
       author_profile: true
       comments: true
       share: true
+      read_time: true
+      toc: true
 
 # == COLLECTIONS == #
 collections:
