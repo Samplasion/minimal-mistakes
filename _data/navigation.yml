@@ -15,7 +15,7 @@ main:
     
 webnav:
  - title: Pages
-   chidren:
+   children:
    - title: "freeShop recension"
      url: /web/freeshop-recension/
    - title: "GodMode9 recension"
