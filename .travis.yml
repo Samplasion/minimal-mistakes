@@ -2,3 +2,20 @@ language: ruby
 rvm:
  - 2.2
 sudo: false
+cache:
+  bundler: true
+  yarn: true
+  directories:
+    - node_modules # NPM packages
+branches:
+  only:
+    - master
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - g++-4.8
+
+env:
+  CXX=g++-4.8
