@@ -7,8 +7,8 @@ layout: single
 comments: true
 excerpt: "In this post, I'll show you my first Discord bot, entirely written in JavaScript."
 ---
-```
 {% highlight js linenos %}
+```
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
@@ -248,7 +248,7 @@ setTimeout(() => {
 //commands end
 
 client.login(config.token);
-{% endhighlight %}
 ```
+{% endhighlight %}
 That's my Discord bot's `mybot.js` file. You can invite your bot to your server [by clicking here](https://discordapp.com/oauth2/authorize?&client_id=352864830794891267&scope=bot). {% capture notice %}BTW, on Discord I'm [samplasion★®#7901](https://discordapp.com/channels/@me){% endcapture %}
-<div class="notice notice--info">{{ notice | markdownify }}</div>
+<div class="notice notice--success">{{ notice | markdownify }}</div>
