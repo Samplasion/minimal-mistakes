@@ -8,7 +8,7 @@ comments: true
 excerpt: "In this post, I'll show you my first Discord bot, entirely written in JavaScript."
 ---
 {% highlight js linenos %}
-```
+//```
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
