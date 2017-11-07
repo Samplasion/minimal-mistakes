@@ -12,3 +12,11 @@ main:
   #   url: /sitemap.xml
   - title: "About"
     url: /about/
+    
+webnav:
+ - title: Pages
+   chidren:
+   - title: "freeShop recension"
+     url: /web/freeshop-recension/
+   - title: "GodMode9 recension"
+     url: /web/godmode9-recension/
