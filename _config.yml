@@ -272,6 +272,7 @@ defaults:
       share: true
       read_time: true
       toc: true
+      toc_title: "Table of Contents"
 
 # == COLLECTIONS == #
 collections:
