@@ -27,8 +27,10 @@ By pressing [HOME] you open additional options.
 
 ## My Considerations
 GodMode9, like the name says, is an omnipotent tool made to edit internal components of the FW.
+
 ### Pros
 * Open-source
 * It asks for permission before editing vital parts of the system, avoiding potential bricks.
+
 ### Cons
 * GUI could be better
