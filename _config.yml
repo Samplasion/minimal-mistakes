@@ -273,6 +273,9 @@ defaults:
       read_time: true
       toc: true
       toc_label: "Table of Contents"
+      sidebar:
+        nav: "webnav"
+      can_ponies_fly: true
 
 # == COLLECTIONS == #
 collections:
