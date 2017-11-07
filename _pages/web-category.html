@@ -8,7 +8,8 @@ toc: true
 
 {% for web in site.web %}
   <h2><a href="{{ web.url }}">{{ web.title }}</a></h2>
-  <small>On {{ web.date | date_to_string }}</small>
+  <small>On {{ web.date | date_to_string }}<br>
+  <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</small>
   <p>{{ web.excerpt }}</p>
   {% include archive-single.html %}
 {% endfor %}
