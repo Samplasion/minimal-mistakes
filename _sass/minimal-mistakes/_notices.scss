@@ -16,7 +16,6 @@
   font-family: $global-font-family;
   font-size: $type-size-6 !important;
   text-indent: initial; /* override*/
-  font-weight: bold;
   background-color: mix($background-color, $notice-color, 45%);
   border-radius: $border-radius;
   box-shadow: 0 1px 1px rgba($notice-color, 0.25);
