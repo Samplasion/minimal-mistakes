@@ -7,8 +7,8 @@ excerpt: "GodMode9, like the name says, is an omnipotent tool made to edit inter
 ## Description and Usage
 GodMode9 ("GM9") isn't *just* a file manager.
 It's a complete modding tool for the 3DS.<!--more-->
-You open GM9 by pressing START at the boot. You'll be now greeted by a unit selection screen [SD, SYSnand, EMUnands, Gamecart].
-By pressing [^]HOME you open additional options.
+You open GM9 by pressing START at the boot. You'll be now greeted by a unit selection screen [SD, SysNAND, EmuNANDs, Gamecart].
+By pressing [HOME] you open additional options.
 ### To dump a cartridge
 {% capture notice %}
 + Insert the game cartridge you intend to dump into your device
@@ -25,7 +25,6 @@ By pressing [^]HOME you open additional options.
   + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it, then select "Copy to 0:/gm9/out"
 1. Your installable `.cia` or non-installable `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
 
-<br>
 ## My Considerations
 GodMode9, like the name says, is an omnipotent tool made to edit internal components of the FW.
 ### Pros
