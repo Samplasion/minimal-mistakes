@@ -24,6 +24,7 @@ By pressing [^]HOME you open additional options.
   + **3DS Game Cartridge:** Press (A) on `[TitleID].trim.3ds` to select it, then select "NCSD image options...", then select "Build CIA from file"
   + **NDS Game Cartridge:** Press (A) on `[TitleID].trim.nds` to select it, then select "Copy to 0:/gm9/out"
 4. Your installable `.cia` or non-installable `.nds` formatted file will be outputted to the `/gm9/out/` folder on your SD card
+
 ## My Considerations
 GodMode9, like the name says, is an omnipotent tool made to edit internal components of the FW.
 ### Pros
