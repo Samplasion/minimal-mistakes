@@ -22,4 +22,4 @@
   </ul>
 </div>
 
-<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. <div markdown="1">[Source Code](https://github.com/Samplasion/samplasion.github.io)</div>
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. {% capture sc %}[Source Code](https://github.com/Samplasion/samplasion.github.io){% endcapture %} {{ sc | markdownify }}
