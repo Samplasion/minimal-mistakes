@@ -48,13 +48,13 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                :
-  secret                 :
+  siteKey                : "6LeH3DcUAAAAAOhIQoUD0oodItN7xsTtby3VNtXW"
+  secret                 : "6LeH3DcUAAAAANbYSS6M7Rb55GBRREl7DG9fTbvv"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
 # SEO Related
-google_site_verification :
+google_site_verification : "vSTajh3KkqGbn_Ju6uA1pvdZUPnoLEkF8jdoYYScaEM"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
