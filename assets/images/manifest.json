@@ -1,0 +1,13 @@
+{
+    "name": "SamplasionWeb",
+    "icons": [
+        {
+            "src": "/assets/images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        }
+    ],
+    "theme_color": "#61abf0",
+    "background_color": "#61abf0",
+    "display": "standalone"
+}
