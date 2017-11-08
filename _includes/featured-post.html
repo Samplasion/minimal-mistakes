@@ -1,6 +1,7 @@
-<h3>Featured Posts</h3>
+<h3 class="archive__subtitle">Featured Posts</h3>
 {% for post in site.posts %}
   {% if post.featured == true %}
     {% include archive-single.html %}
   {% endif %}
 {% endfor %}
+<br><hr><br>
