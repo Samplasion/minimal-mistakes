@@ -267,7 +267,7 @@ defaults:
       type: web
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       comments: true
       share: true
       read_time: true
