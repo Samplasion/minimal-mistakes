@@ -17,8 +17,8 @@ webnav:
  - title: Pages
    children:
     - title: "freeShop recension"
-      url: /web/freeshop-recension.html
+      url: /web/freeshop-recension/
     - title: "GodMode9 recension"
-      url: /web/godmode9-recension.html
+      url: /web/godmode9-recension/
     - title: "FBI recension"
-      url: /web/fbi-recension.html
+      url: /web/fbi-recension/
