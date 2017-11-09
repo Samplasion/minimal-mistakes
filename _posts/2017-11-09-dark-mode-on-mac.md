@@ -18,7 +18,8 @@ There's another complication: if an app doesn't contain or contains few system's
 
 Two disclaimers by the developer:
 > Disclaimer 1: Please note that, while I have SIP disabled on my machine, I do not recommend it to anyone, it's an important security feature and you should only disable it if you know the implications.
-Disclaimer 2: I am not responsible for any issues you might face while trying this out. If you computer blows up, it's not my fault.
+
+> Disclaimer 2: I am not responsible for any issues you might face while trying this out. If you computer blows up, it's not my fault.
 
 So, with this on mind, let's start!
 
