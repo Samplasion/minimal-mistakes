@@ -275,7 +275,7 @@ it: &DEFAULT_IT
   pagination_next            : "Prossima"
   breadcrumb_home_label      : "Home"
   breadcrumb_separator       : "/"
-  menu_label                 :
+  menu_label                 : "Menu"
   toc_label                  : "Indice della pagina"
   ext_link_label             : "Link"
   less_than                  : "meno di"
