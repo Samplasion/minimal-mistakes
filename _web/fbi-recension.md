@@ -7,7 +7,7 @@ excerpt: "FBI is the cia installer for excellence."
 ### Description and Usage
 FBI is a `.cia` installer.
 #### Features
-The following is [available at project home](https://gbatemp.net/threads/release-fbi-open-source-cia-installer.386433/).{: .notice--info}
+The following is [available at project home](https://gbatemp.net/threads/release-fbi-open-source-cia-installer.386433/). {: .notice--info}
 + Available as a CIA, 3DS, and 3DSX. To use the 3DSX version, either ensure the required services are accessible, such as through Luma3DS's access patching option, or run a kernel exploit beforehand, such as fasthax or waithax.
 + Browse and modify SD, TWL photos, TWL sounds, save data, and ext save data.
 Browse and modify CTR NAND, TWL NAND, and system save data, and dump the raw NAND image to "sdmc:/NAND.bin". (CIA/3DS ONLY)
