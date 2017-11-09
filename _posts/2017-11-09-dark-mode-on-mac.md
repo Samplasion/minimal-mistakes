@@ -26,7 +26,7 @@ So, with this on mind, let's start!
 ## Requisites
 + OS X El Capitan or later ver.
 + Xcode and Command Line Tools installed
-+ [System Integrity Protection (SIP)](https://support.apple.com/en-us/HT204899) disabled [how-to](https://www.imore.com/el-capitan-system-integrity-protection-helps-keep-malware-away)
++ [System Integrity Protection (SIP)](https://support.apple.com/en-us/HT204899) disabled ([how-to](https://www.imore.com/el-capitan-system-integrity-protection-helps-keep-malware-away))
 
 ## Instructions
 1. Download [this file](https://github.com/insidegui/DarkMode/raw/master/Release/DarkMode.zip) and extract it to _~/Library/Services_.
