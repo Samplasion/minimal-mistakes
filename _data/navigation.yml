@@ -1,5 +1,3 @@
----
----
 # main links
 main:
   - title: "Posts"
@@ -18,7 +16,9 @@ main:
 webnav:
  - title: Pages
    children:
-   {% for page in site.web %}
-    - title: {{ page.title }}
-      url: {{ page.url }}
-   {% endfor %}
+    - title: "freeShop recension"
+      url: /web/freeshop-recension.html
+    - title: "GodMode9 recension"
+      url: /web/godmode9-recension.html
+    - title: "FBI recension"
+      url: /web/fbi-recension.html
