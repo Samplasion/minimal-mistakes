@@ -16,7 +16,7 @@ main:
 webnav:
  - title: Pages
    children:
-   - title: "freeShop recension"
-     url: /web/freeshop-recension/
-   - title: "GodMode9 recension"
-     url: /web/godmode9-recension/
+   {% for page in site.web %}
+    - title: {{ page.title }}
+      url: {{ page.url }}
+   {% endfor %}
