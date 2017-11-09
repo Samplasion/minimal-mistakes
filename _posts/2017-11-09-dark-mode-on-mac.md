@@ -29,6 +29,6 @@ So, with this on mind, let's start!
 + [System Integrity Protection (SIP)](https://support.apple.com/en-us/HT204899) disabled ([how-to](https://www.imore.com/el-capitan-system-integrity-protection-helps-keep-malware-away))
 
 ## Instructions
-1. Download [this file](https://github.com/insidegui/DarkMode/raw/master/Release/DarkMode.zip) and extract it to _~/Library/Services_.
-1. Open the app you want to darken and press `[NameoftheApp]`>`Services`>`Apply Dark Mode`
+1. Download [this file](https://github.com/insidegui/DarkMode/raw/master/Release/DarkMode.zip) and extract it to `~/Library/Services`.
+1. Open the app you want to darken and press `[NameoftheApp]` > `Services` > `Apply Dark Mode`
 1. Wait ~10 secs and —**voilà!**—your app should be dark.
