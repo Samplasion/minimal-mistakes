@@ -7,7 +7,7 @@ excerpt: "In this post, we'll see how to darken OS X/macOS apps in a cool way!"
 toc: true
 toc_label: "To darken OS X Apps"
 toc_icon: "gear"
-featured: true
+featured: false
 ---
 OS X is known to be light, extremely light. That's why, an user named **@guilhermerambo** created [this tool](https://medium.com/@guilhermerambo/how-to-enable-real-dark-mode-on-os-x-macos-14966f9f7d24), which makes any system control in any app **dark** and is easy as 1-2-3!
 But this tool is **not** the perfection. In fact it can only darken apps on a _app per app basis_, and once you quit an app, you lose the "dark mode". The developer even said:
