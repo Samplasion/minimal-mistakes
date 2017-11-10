@@ -12,6 +12,8 @@ main:
   #   url: /sitemap.xml
   - title: "About"
     url: /about/
+  - title: "Portfolio"
+    url: /portfolio/
     
 webnav:
  - title: Pages
