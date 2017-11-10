@@ -6,6 +6,6 @@ author_profile: true
 ---
 
 <h3 class="archive__subtitle">My Consoles</h3>
-{% for pages in site.portfolio %}
-  <h2><a href="{{ pages.url }}">{{ pages.title }}</a></h2>
+{% for post in site.portfolio %}
+  {% include archive-single.html %}
 {% endfor %}
