@@ -1,5 +1,6 @@
 ---
 title: "Nintendo 3DS"
+excerpt: "One of my main consoles."
 ---
 One of my main consoles.
 
