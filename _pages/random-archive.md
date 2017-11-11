@@ -47,8 +47,32 @@ feature_row4:
 
 <h2 id="rand_archive">Randomic Archive <small>(or Archive of Randomness)</small></h2>
 
-{% include video_row
-id="vid_pcs" %}
+    <div class="feature__item">
+      <div class="archive__item">
+
+<!-- Courtesy of embedresponsively.com //-->
+<div class="responsive-video-container">
+  <iframe src="https://www.youtube.com/embed/{{ page.vid_pcs.id }}" frameborder="0" allowfullscreen></iframe>
+</div>
+          </div>
+        {% endif %}
+
+        <div class="archive__item-body">
+          {% if page.vid_pcs.title %}
+            <h2 class="archive__item-title">{{ page.vid_pcs.title }}</h2>
+          {% endif %}
+
+          {% if page.vid_pcs.excerpt %}
+            <div class="archive__item-excerpt">
+              {{ f.excerpt | markdownify }}
+            </div>
+          {% endif %}
+
+          {% if page.vid_pcs.url %}
+            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
+          {% endif %}
+        </div>
+      </div>
 
 {% include feature_row id="feature_row2" type="left" %}
 
