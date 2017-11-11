@@ -2,7 +2,6 @@
 title: "Archive of Randomness"
 layout: splash
 permalink: /random/
-date: 2016-03-23T11:48:41-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
@@ -55,22 +54,11 @@ feature_row4:
   <iframe src="https://www.youtube.com/embed/{{ page.vid_pcs.id }}" frameborder="0" allowfullscreen></iframe>
 </div>
           </div>
-        {% endif %}
-
         <div class="archive__item-body">
-          {% if page.vid_pcs.title %}
             <h2 class="archive__item-title">{{ page.vid_pcs.title }}</h2>
-          {% endif %}
-
-          {% if page.vid_pcs.excerpt %}
             <div class="archive__item-excerpt">
-              {{ f.excerpt | markdownify }}
+              {{ page.vid_pcs.excerpt | markdownify }}
             </div>
-          {% endif %}
-
-          {% if page.vid_pcs.url %}
-            <p><a href="{{ f_url }}" class="btn {{ f.btn_class }}">{{ f.btn_label | default: site.data.ui-text[site.locale].more_label | default: "Learn More" }}</a></p>
-          {% endif %}
         </div>
       </div>
 
