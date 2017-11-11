@@ -48,7 +48,6 @@ feature_row4:
 
     <div class="feature__item">
       <div class="archive__item">
-
 <!-- Courtesy of embedresponsively.com //-->
 <div class="responsive-video-container">
   <iframe src="https://www.youtube.com/embed/{{ page.vid_pcs.id }}" frameborder="0" allowfullscreen></iframe>
