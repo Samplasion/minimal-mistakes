@@ -16,16 +16,10 @@
 
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
-        {% capture video_id %}{{ include.video_id }}{% endcapture %}
-{% capture video_provider %}{{ include.provider }}{% endcapture %}
 
 <!-- Courtesy of embedresponsively.com //-->
 <div class="responsive-video-container">
-{% if video_provider == "vimeo" %}
-  <iframe src="https://player.vimeo.com/video/{{ video_id }}" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-{% elsif video_provider == "youtube" %}
-  <iframe src="https://www.youtube.com/embed/{{ video_id }}" frameborder="0" allowfullscreen></iframe>
-{% endif %}
+  <iframe src="https://www.youtube.com/embed/{{ f.id }}" frameborder="0" allowfullscreen></iframe>
 </div>
           </div>
         {% endif %}
