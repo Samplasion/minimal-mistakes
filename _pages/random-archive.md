@@ -13,6 +13,9 @@ header:
 excerpt: "Welcome to the **Archive of Randomness**, the only **_crazy_** archive of this site."
 intro: 
   - excerpt: 'Are you really sure you want to continue? The content below is not suitable for babies under `9999` years of age.'
+vid_pcs:
+  - title: "Placeholder: PCS"
+    excerpt: "Placeholder: PCS descr"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -43,9 +46,8 @@ feature_row4:
 
 <h2 id="rand_archive">Randomic Archive <small>(or Archive of Randomness)</small></h2>
 
-{% include video id="imtheid" provider="youtube" %}
-# Placeholder: PCS
-Placeholder: PCS caption
+{% include video_row
+id="vid_pcs" video_id="imtheid" provider="youtube" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
