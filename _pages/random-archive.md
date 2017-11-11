@@ -9,25 +9,10 @@ header:
   overlay_image: /assets/images/wiiu-1.jpg
   cta_label: "Go To Randomic Archive"
   cta_url: "/random/#rand_archive"
-  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger corned beef short ribs kielbasa biltong t-bone drumstick tri-tip tail sirloin pork chop."
+  caption: "Photo credit: [**Me**](/)"
+excerpt: "Welcome to the **Archive of Randomness**, the only **_crazy_** archive of this site."
 intro: 
-  - excerpt: 'Nullam suscipit et nam, tellus velit pellentesque at malesuada, enim eaque. Quis nulla, netus tempor in diam gravida tincidunt, *proin faucibus* voluptate felis id sollicitudin. Centered with `type="center"`'
-feature_row:
-  - image_path: assets/images/unsplash-gallery-image-1-th.jpg
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-  - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--primary"
-  - image_path: /assets/images/unsplash-gallery-image-3-th.jpg
-    title: "Placeholder 3"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+  - excerpt: 'Are you really sure you want to continue? The content below is not suitable for babies under `9999` years of age.'
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -58,7 +43,9 @@ feature_row4:
 
 <h2 id="rand_archive">Randomic Archive <small>(or Archive of Randomness)</small></h2>
 
-{% include feature_row %}
+{% include video id="imtheid" provider="youtube" %}
+# Placeholder: PCS
+Placeholder: PCS caption
 
 {% include feature_row id="feature_row2" type="left" %}
 
