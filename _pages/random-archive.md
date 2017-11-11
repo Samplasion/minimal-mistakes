@@ -16,6 +16,7 @@ intro:
 vid_pcs:
   - title: "Placeholder: PCS"
     excerpt: "Placeholder: PCS descr"
+    id: "imtheid"
 feature_row2:
   - image_path: /assets/images/unsplash-gallery-image-2-th.jpg
     alt: "placeholder image 2"
@@ -47,7 +48,7 @@ feature_row4:
 <h2 id="rand_archive">Randomic Archive <small>(or Archive of Randomness)</small></h2>
 
 {% include video_row
-id="vid_pcs" video_id="imtheid" provider="youtube" %}
+id="vid_pcs" %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
