@@ -16,7 +16,7 @@
 
     <div class="feature__item{% if include.type %}--{{ include.type }}{% endif %}">
       <div class="archive__item">
-        {% capture video_id %}{{ include.id }}{% endcapture %}
+        {% capture video_id %}{{ include.video_id }}{% endcapture %}
 {% capture video_provider %}{{ include.provider }}{% endcapture %}
 
 <!-- Courtesy of embedresponsively.com //-->
