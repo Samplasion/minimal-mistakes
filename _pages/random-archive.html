@@ -50,7 +50,7 @@ Are you really sure you want to continue? The content below is not suitable for 
   </div>
   <div class="archive__item-body">
   <h2 class="archive__item-title">Placeholder</h2>
-  <div class="archive__item-excerpt">{% capture pcsexcerpt %}PLACE**_HOL_DE**R
+  <div class="archive__item-excerpt">{% capture pcsexcerpt %}PLACE***HOL*DE**R
 {% endcapture %}
               {{ pcsexcerpt | markdownify }}
    </div>
@@ -65,5 +65,5 @@ Are you really sure you want to continue? The content below is not suitable for 
 
 <h3>Random Posts</h3>
 {% for post in site.random %}
-  {% import archive-single.html %}
+  {% include archive-single.html %}
 {% endfor %}
