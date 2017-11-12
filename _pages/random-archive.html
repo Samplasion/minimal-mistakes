@@ -10,6 +10,12 @@ header:
   cta_url: "/random/#rand_archive"
   caption: "Photo credit: [**Me**](/)"
 excerpt: "Welcome to the **Archive of Randomness**, the only **_crazy_** archive of this site."
+feature_row:
+ - title: "Placeholder Image Left Aligned"
+   excerpt: 'This is some sample content that goes here with **Markdown** formatting.'
+   url: "#test-link"
+   btn_label: "Read More"
+   btn_class: "btn--primary"
 feature_row2:
   - image_path: /assets/images/wiiu-1.jpg
     alt: "placeholder image 2"
@@ -34,28 +40,20 @@ feature_row4:
     url: "#test-link"
     btn_label: "Read More"
     btn_class: "btn--primary"
+ft_row:
+ - url: "#rand_archive"
+   btn_label: "To Top <!-- TODO: Nothing -->"
+   btn_class: "btn--success"
 ---
 
-Are you really sure you want to continue? The content below is not suitable for babies under `9999` years of age.
-{: .notice--warning}
+{% capture warn %}Are you really sure you want to continue? The content below is not suitable for babies under `9999` years of age.{% endcapture %}
+{% capture dang %}Do <kbd>Alt</kbd>+<kbd>F4</kbd>, Quick!{% endcapture %}
+<div class="notice--warning">{{ warn | markdownify }}</div>
+<div class="notice--danger">{{ dang | markdownify }}</div>
 
 <h2 id="rand_archive">Randomic Archive <small>(or Archive of Randomness)</small></h2>
 
-<div class="feature__item">
-  <div class="archive__item">
-<!-- Courtesy of embedresponsively.com //-->
-<div class="responsive-video-container">
-  <iframe src="https://www.youtube.com/embed/IDHERE" frameborder="0" allowfullscreen></iframe>
-</div>
-  </div>
-  <div class="archive__item-body">
-  <h2 class="archive__item-title">Placeholder</h2>
-  <div class="archive__item-excerpt">{% capture pcsexcerpt %}PLACE***HOL*DE**R
-{% endcapture %}
-              {{ pcsexcerpt | markdownify }}
-   </div>
-  </div>
- </div>
+{% include feature_row %}
 
 {% include feature_row id="feature_row2" type="left" %}
 
@@ -63,7 +61,9 @@ Are you really sure you want to continue? The content below is not suitable for 
 
 {% include feature_row id="feature_row4" type="center" %}
 
-<h3>Random Posts</h3>
+<h3 class="archive__subtitle">Random Posts</h3>
 {% for post in site.random %}
   {% include archive-single.html %}
 {% endfor %}
+
+{% include feature_row id="ft_row" %}
