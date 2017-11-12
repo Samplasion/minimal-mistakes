@@ -17,13 +17,13 @@ description              : "An amazing website."
 url                      : "https://samplasion.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "https://placebear.com/500/300" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 80
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : samplasion # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : samplasionweb # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -48,8 +48,8 @@ staticman:
       options:
         format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                : "6LeH3DcUAAAAAOhIQoUD0oodItN7xsTtby3VNtXW"
-  secret                 : "6LeH3DcUAAAAANbYSS6M7Rb55GBRREl7DG9fTbvv"
+  siteKey                : # "6LeH3DcUAAAAAOhIQoUD0oodItN7xsTtby3VNtXW"
+  secret                 : # "6LeH3DcUAAAAANbYSS6M7Rb55GBRREl7DG9fTbvv"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -72,7 +72,7 @@ og_image                 : # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
+  name                   : "Samplasion" # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
 
 # Analytics
@@ -93,7 +93,7 @@ author:
   email            : "ercolino2004@gmail.com"
   uri              :
   bitbucket        :
-  codepen          :
+  codepen          : "samplasion"
   dribbble         :
   flickr           :
   facebook         :
