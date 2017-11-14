@@ -38,3 +38,11 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+/* Custom SCSS */
+kbd {
+  background-color: $light-gray;
+  border: 1px 1px 1px 1px solid black;
+  color: black;
+  border-radius: 5px;
+}
