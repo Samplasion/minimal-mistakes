@@ -24,13 +24,13 @@ Today I noticed that I haven't created nor linked to my (few) projects. So, to r
 #### JS
 {% highlight js %}
 function genCopy(string, id) {
-  document.getElementById(id).innerHTML = `Copyright © 2017 ${string} All Rights Reserved.`
+  document.getElementById(id).innerHTML = `Copyright © 2017 ${string}. All Rights Reserved.`
 }
 {% endhighlight %}
 #### Result
-<input oninput="genCopy(this.value, 'result')" onchange="genCopy(this.value, 'result')">
-<div id="result"></div>
+<input oninput="genCopy(this.value, 'resul')" onchange="genCopy(this.value, 'resul')">
+<div id="resul"></div>
 <script>
 function genCopy(string, id) {
-  document.getElementById(id).innerHTML = `Copyright © 2017 ${string} All Rights Reserved.`
+  document.getElementById(id).innerHTML = `Copyright © 2017 ${string}. All Rights Reserved.`
 }</script>
