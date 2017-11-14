@@ -69,6 +69,7 @@ ft_row:
 {% include feature_row id="ft_row" %}
 <input type="text" name="date" id="date">
 <script>
+$( "#date" ).datepicker();
 // Set the date we're counting down to
 var countDownDate = $( "#date" ).datepicker("getDate");
 
