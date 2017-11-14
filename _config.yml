@@ -315,4 +315,3 @@ collections:
 head_scripts:
   - https://code.jquery.com/jquery-3.2.1.min.js
 footer_scripts:
-  - /assets/js/picker.js
