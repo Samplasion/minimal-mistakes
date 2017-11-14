@@ -68,10 +68,15 @@ ft_row:
 
 {% include feature_row id="ft_row" %}
 <input type="text" name="date" id="date">
+<span id="demo"></span>
 <script>
-$( "#date" ).datepicker();
+$('#date').pickadate()
+var $input = $('#date').pickadate()
+
+// Use the picker object directly.
+var picker = $input.pickadate('picker')
 // Set the date we're counting down to
-var countDownDate = $( "#date" ).datepicker("getDate");
+var countDownDate = picker.get('view', 'yyyy/mm/dd')
 
 // Update the count down every 1 second
 var x = setInterval(function() {
