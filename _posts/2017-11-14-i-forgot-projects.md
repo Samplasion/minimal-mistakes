@@ -17,13 +17,13 @@ Today I noticed that I haven't created nor linked to my (few) projects. So, to r
 ### A Copyright Generator App
 #### HTML
 <pre>{% highlight html %}
-<input oninput="genCopy(this.value)" onchange="genCopy(this.value)"></input>
+<input oninput="genCopy(this.value, 'result')" onchange="genCopy(this.value, 'result')"></input>
 <div id="result"></div>
 <script src="script.js"></script>
 {% endhighlight %}</pre>
 #### JS
 {% highlight js %}
-function genCopy(string) {
-  var copy = `Copyright ©  2017 ${string} All Rights Reserved.`
+function genCopy(string, id) {
+  document.getElementById(id).innerHTML = `Copyright ©  2017 ${string} All Rights Reserved.`
 }
 {% endhighlight %}
