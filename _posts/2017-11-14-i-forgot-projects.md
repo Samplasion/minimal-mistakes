@@ -19,11 +19,11 @@ Today I noticed that I haven't created nor linked to my (few) projects. So, to r
 <pre>{% highlight html %}
 <input oninput="genCopy(this.value)" onchange="genCopy(this.value)"></input>
 <div id="result"></div>
-<script>
+<script src="script.js"></script>
 {% endhighlight %}</pre>
+#### JS
 {% highlight js %}
 function genCopy(string) {
-  var copy = `Copyright (c) 2017 ${string} All Rights Reserved.`
+  var copy = `Copyright ©  2017 ${string} All Rights Reserved.`
 }
 {% endhighlight %}
-<pre>{% highlight html %}</script>{% endhighlight %}</pre>
