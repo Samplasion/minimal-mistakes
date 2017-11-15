@@ -16,7 +16,7 @@ Today I’ve noticed that I haven't created nor linked pages to my (few) project
 {% capture warning %}
 **Please notice** that unless noted, the examples below need a file called _script.js_ in the same folder as _index.html_, with the scripts
 {% endcapture %}
-<div class="notice notice- -warning">{{ warning | markdownify }}</div>
+<div class="notice notice--warning">{{ warning | markdownify }}</div>
 
 ## A Copyright Generator App
 ### HTML
