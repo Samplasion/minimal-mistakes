@@ -9,6 +9,7 @@ categories: code
 layout: single
 comments: true
 toc: true
+featured: true
 ---
 
 {% include figure image_path="http://robohub.org/wp-content/uploads/2016/06/technology-1283624_1280-1024x576.jpg" alt="Code" %}
@@ -75,6 +76,7 @@ function genNum(id) {
 <p id="appendresult"></p>
 <script src="script.js"></script>
 {% endhighlight %}
+### JS
 {% highlight js linenos %}
 $(document).ready(function(){
     $("#buttonappend").click(function(){
@@ -88,11 +90,8 @@ $(document).ready(function(){
 <p id="appendresult"></p>
 <script>
  $(document).ready(function(){
-    var count = 0
-    if (count != 0) {
     $("#buttonappend").click(function(){
-        $("#appendresult").append($("#append").text); count += 1;
+        $("#appendresult").append($("#append").text);
     });
-    };
 }); 
 </script>
