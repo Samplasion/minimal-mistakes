@@ -66,3 +66,33 @@ function genNum(id) {
   document.getElementById(id).innerHTML = nRand;
 }
 </script>
+
+## A Simple Text Appender
+### HTML
+{% highlight html %}
+<input id="append" placeholder="You can use <b>HTML Markup!</b>">
+<button id="buttonappend">Append Text</button>
+<p id="appendresult"></p>
+<script src="script.js"></script>
+{% endhighlight %}
+{% highlight js linenos %}
+$(document).ready(function(){
+    $("#buttonappend").click(function(){
+        $("#appendresult").append($("#append").text);
+    });
+});
+{% endhighlight %}
+### Result
+<input id="append" placeholder="You can use <b>HTML Markup!</b>">
+<button id="buttonappend">Append Text</button>
+<p id="appendresult"></p>
+<script>
+ $(document).ready(function(){
+    var count = 0
+    if (count != 0) {
+    $("#buttonappend").click(function(){
+        $("#appendresult").append($("#append").text); count += 1;
+    });
+    };
+}); 
+</script>
