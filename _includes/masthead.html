@@ -4,13 +4,20 @@
       <nav id="site-nav" class="greedy-nav">
         <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
         <ul class="visible-links">
-          {% for link in site.data.navigation.main %}
-            {% if link.url contains 'http' %}
-              {% assign domain = '' %}
+          {% assign split_path = page.path | split: "/" %}
+          {% assign locale = split_path[1] %}
+          {% assign titles = site.data.navigation[locale].main %}
+          {% if locale == 'en_US' %}
+            {% assign locale_var = '/' %}
+          {% else %}
+            {% assign locale_var = locale | prepend:'/' | append:'/' %}
+          {% endif %}
+          {% for link in site.data.navigation[locale].main %}
+            {% if link.url == "/" %}
+              <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ domain }}{{ locale_var }}">{{ link.title }}</a></li>
             {% else %}
-              {% assign domain = site.url | append: site.baseurl %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ locale_var }}{{ link.url }}">{{ link.title }}</a></li>
             {% endif %}
-            <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
         <ul class="hidden-links links-menu hidden"></ul>
