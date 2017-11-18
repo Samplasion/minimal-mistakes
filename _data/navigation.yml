@@ -28,27 +28,27 @@ en_US:
 
 it_IT:
   main:
-    - title: "Posts"
+    - title: "Post"
       url: /year-archive/
-    - title: "Posts by Category"
+    - title: "Post per Categoria"
       url: /categories/
-    - title: "Archive of Pages"
+    - title: "Pagine"
       url: /web/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap.xml
-    - title: "About"
+    - title: "Su di me"
       url: /about/
     - title: "Portfolio"
       url: /portfolio/
     
   webnav:
-   - title: Pages
+   - title: Pagine
      children:
-      - title: "freeShop recension"
+      - title: "freeShop - recensione"
         url: /web/freeshop-recension/
-      - title: "GodMode9 recension"
+      - title: "GodMode9 - recensione"
         url: /web/godmode9-recension/
-      - title: "FBI recension"
+      - title: "FBI - recensione"
         url: /web/fbi-recension/
