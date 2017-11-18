@@ -2,12 +2,11 @@
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
-        <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
         <ul class="visible-links">
           {% assign split_path = page.path | split: "/" %}
           {% assign locale = split_path[1] %}
           {% assign titles = site.data.navigation[locale].main %}
-          {% if locale == 'en_US' or locale == 'en' %}
+          {% if locale == 'en_US' %}
             {% assign locale_var = '/' %}
           {% else %}
             {% assign locale_var = locale | prepend:'/' | append:'/' %}
@@ -36,7 +35,6 @@
         </ul>
         <button class="navsel"><div class="navicon"></div></button>
         <button class="langsel"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
-        <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
