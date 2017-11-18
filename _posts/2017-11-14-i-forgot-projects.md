@@ -78,9 +78,10 @@ function genNum(id) {
 {% endhighlight %}
 ### JS (jQuery)
 {% highlight js linenos %}
-$(document).ready(function(){
+ $(document).ready(function(){
+    var value = $("#append").val;
     $("#buttonappend").click(function(){
-        $("#appendresult").append($("#append").val);
+        $("#appendresult").append(value);
     });
 });
 {% endhighlight %}
@@ -90,8 +91,9 @@ $(document).ready(function(){
 <p id="appendresult"></p>
 <script>
  $(document).ready(function(){
+    var value = $("#append").val;
     $("#buttonappend").click(function(){
-        $("#appendresult").append("lol");
+        $("#appendresult").append(value);
     });
 }); 
 </script>
