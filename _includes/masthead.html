@@ -7,7 +7,7 @@
           {% assign split_path = page.path | split: "/" %}
           {% assign locale = split_path[1] %}
           {% assign titles = site.data.navigation[locale].main %}
-          {% if locale == 'en_US' %}
+          {% if locale == 'en_US' or locale == 'en' %}
             {% assign locale_var = '/' %}
           {% else %}
             {% assign locale_var = locale | prepend:'/' | append:'/' %}
