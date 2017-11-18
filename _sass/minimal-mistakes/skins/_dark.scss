@@ -35,3 +35,8 @@ $navicon-link-color-hover: mix(#000, $background-color, 30%) !default;
     $background-color: #7d4e58;
   }
 }
+
+.author__urls.social-icons .fa,
+.page__footer-follow .social-icons .fa {
+  color: inherit;
+}
