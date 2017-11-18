@@ -1,41 +1,24 @@
 <div class="masthead">
-  <div class="masthead__inner-wrap">
-    <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <ul class="visible-links">
-          {% assign split_path = page.path | split: "/" %}
-          {% assign locale = split_path[1] %}
-          {% assign titles = site.data.navigation[locale].main %}
-          {% if locale == 'en_US' %}
-            {% assign locale_var = '/' %}
-          {% else %}
-            {% assign locale_var = locale | prepend:'/' | append:'/' %}
-          {% endif %}
-          {% for link in site.data.navigation[locale].main %}
-            {% if link.url == "/" %}
-              <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ domain }}{{ locale_var }}">{{ link.title }}</a></li>
-            {% else %}
-              <li class="masthead__menu-item"><a href="{{ domain }}{{ locale_var }}{{ link.url }}">{{ link.title }}</a></li>
-            {% endif %}
-          {% endfor %}
-        </ul>
-        <ul class="hidden-links links-menu hidden"></ul>
-        <ul class="hidden-links lang-menu hidden">
-          {% assign split_url = page.url | split: "/" %}
-          {% if split_url.size == 3 %}
-            {% assign langless_url = split_url[2] %}
-          {% else %}
-            {% assign langless_url = split_url[1] %}
-          {% endif %}
-          {% if langless_url == "index.html" %}
-            {% assign langless_url = "" %}
-          {% endif %}
-          <li class="masthead__menu-item"><a href="{{ site.url }}/{{ langless_url }}">English</a></li>
-          <li class="masthead__menu-item"><a href="{{ site.url }}/it_IT/{{ langless_url }}">Italiano</a></li>
-        </ul>
-        <button class="navsel"><div class="navicon"></div></button>
-        <button class="langsel"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
-      </nav>
+    <div class="masthead__inner-wrap">
+      <div class="masthead__menu">
+        <nav id="site-nav" class="greedy-nav">
+          <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
+          <ul class="visible-links">{% if site.locale != "en_US" %}{% assign splitpth = page.url | split "/" %}{% assign loc = splitpth[1] %}{% else %}{% assign loc = "en_US" %}{% endif %}
+            {% for link in site.data.navigation[loc].main %}
+              {% if link.url contains 'http' %}
+                {% assign domain = '' %}
+              {% else %}
+                {% assign domain = site.url | append: site.baseurl %}
+              {% endif %}
+              <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
+            {% endfor %}
+          </ul>
+          <button type="button">
+            <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</span>
+            <div class="navicon"></div>
+          </button>
+          <ul class="hidden-links hidden"></ul>
+        </nav>
+      </div>
     </div>
   </div>
-</div>
