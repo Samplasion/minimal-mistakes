@@ -3,8 +3,8 @@
       <div class="masthead__menu">
         <nav id="site-nav" class="greedy-nav">
           <a class="site-title" href="{{ '/' | absolute_url }}">{{ site.title }}</a>
-          <ul class="visible-links">{% if site.locale != "en_US" %}{% assign splitpth = page.url | split "/" %}{% assign loc = splitpth[1] %}{% else %}{% assign loc = "en_US" %}{% endif %}
-            {% for link in site.data.navigation.en_US.main %}
+          <ul class="visible-links">
+            {% for link in site.data.navigation.main %}
               {% if link.url contains 'http' %}
                 {% assign domain = '' %}
               {% else %}
