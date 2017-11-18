@@ -1,6 +1,5 @@
 # main links
-en_US:
-  main:
+main:
     - title: "Posts"
       url: /year-archive/
     - title: "Posts by Category"
@@ -24,31 +23,4 @@ en_US:
       - title: "GodMode9 recension"
         url: /web/godmode9-recension/
       - title: "FBI recension"
-        url: /web/fbi-recension/
-
-it_IT:
-  main:
-    - title: "Post"
-      url: /year-archive/
-    - title: "Post per Categoria"
-      url: /categories/
-    - title: "Pagine"
-      url: /web/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap.xml
-    - title: "Su di me"
-      url: /about/
-    - title: "Portfolio"
-      url: /portfolio/
-    
-  webnav:
-   - title: Pagine
-     children:
-      - title: "freeShop - recensione"
-        url: /web/freeshop-recension/
-      - title: "GodMode9 - recensione"
-        url: /web/godmode9-recension/
-      - title: "FBI - recensione"
         url: /web/fbi-recension/
