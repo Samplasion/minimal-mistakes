@@ -91,7 +91,7 @@ $(document).ready(function(){
 <script>
  $(document).ready(function(){
     $("#buttonappend").click(function(){
-        $("#appendresult").append($("#append").val);
+        $("#appendresult").append("lol");
     });
 }); 
 </script>
