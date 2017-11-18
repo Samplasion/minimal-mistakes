@@ -76,11 +76,11 @@ function genNum(id) {
 <p id="appendresult"></p>
 <script src="script.js"></script>
 {% endhighlight %}
-### JS
+### JS (jQuery)
 {% highlight js linenos %}
 $(document).ready(function(){
     $("#buttonappend").click(function(){
-        $("#appendresult").append($("#append").text);
+        $("#appendresult").append($("#append").val);
     });
 });
 {% endhighlight %}
@@ -91,7 +91,7 @@ $(document).ready(function(){
 <script>
  $(document).ready(function(){
     $("#buttonappend").click(function(){
-        $("#appendresult").append($("#append").text);
+        $("#appendresult").append($("#append").val);
     });
 }); 
 </script>
