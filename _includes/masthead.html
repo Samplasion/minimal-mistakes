@@ -27,11 +27,9 @@
           <li class="masthead__menu-item"><a href="{{ site.url }}/{{ langless_url }}">English</a></li>
           <li class="masthead__menu-item"><a href="{{ site.url }}/it_IT/{{ langless_url }}">Italiano</a></li>
         </ul>
-        <button class="lang-selector"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button> - 
-        <button type="button">
-          <span class="visually-hidden">{{ site.data.ui-text[site.locale].menu_label | default: "Toggle Menu" }}</span>
-          <div class="navicon"></div>
-        </button>
+        <button class="lang-selector"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+        <button class="langsel"><div class="langicon"><i class="fa fa-language fa-lg" aria-hidden="true"></i></div></button>
+
         <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
