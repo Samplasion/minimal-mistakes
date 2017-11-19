@@ -1,4 +1,6 @@
 ---
+header:
+  teaser: https://3ds.guide/images/home-page-feature.jpg
 title: "My hints for the perfect Nintendo 3DS"
 tags: hints Nintendo cia
 categories: Nintendo
@@ -9,6 +11,8 @@ featured: true
 ---
 **Hey!** This post is only a suggestion of my ideas. Feel free to comment yours, but don't criticize others' (including me) ideas.
 {: .notice--warning}
+
+{% include figure image_path="https://3ds.guide/images/home-page-feature.jpg" caption="(c) Plailect in <https://3ds.guide/>" %}
 
 ## The Base Console
 + New Nintendo 3DS
