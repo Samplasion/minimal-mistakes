@@ -1,26 +1,26 @@
 # main links
 main:
-    - title: "Posts"
-      url: /year-archive/
-    - title: "Posts by Category"
-      url: /categories/
-    - title: "Archive of Pages"
-      url: /web/
+ - title: "Posts"
+   url: /year-archive/
+ - title: "Posts by Category"
+   url: /categories/
+ - title: "Archive of Pages"
+   url: /web/
   # - title: "Sample Collections"
   #   url: /collection-archive/
   # - title: "Sitemap"
   #   url: /sitemap.xml
-    - title: "About"
-      url: /about/
-    - title: "Portfolio"
-      url: /portfolio/
+ - title: "About"
+   url: /about/
+ - title: "Portfolio"
+   url: /portfolio/
     
-  webnav:
-   - title: Pages
-     children:
-      - title: "freeShop recension"
-        url: /web/freeshop-recension/
-      - title: "GodMode9 recension"
-        url: /web/godmode9-recension/
-      - title: "FBI recension"
-        url: /web/fbi-recension/
+webnav:
+ - title: Pages
+   children:
+   - title: "freeShop recension"
+     url: /web/freeshop-recension/
+   - title: "GodMode9 recension"
+     url: /web/godmode9-recension/
+   - title: "FBI recension"
+     url: /web/fbi-recension/
