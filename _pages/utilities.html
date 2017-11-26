@@ -1,0 +1,17 @@
+---
+title: "Utilities"
+toc: true
+---
+
+<h2>Nintendo 3DS Block (BL) => MB/GB</h2>
+<input placeholder="BL" id="inBL" oninput="convert('bl', this.value, 'outMB1', 'outGB1')" onchange="convert('bl', this.value, 'outMB1', 'outGB1')"> -> <span id="outMB1"></span>MB / <span id="outGB1"></span> GB
+<script>
+function convert(from, value, mb, gb) {
+	if(from=="bl"){
+		document.getElementById(mb).innerHTML=`${(value*128)*8}`
+  }else if(from=="mb"){
+    document.getElementById(mb).innerHTML=`${((value*128)*8)}`
+  }else{
+    document.getElementById(mb).innerHTML=`${((value*128)*8)}`
+  }
+}
