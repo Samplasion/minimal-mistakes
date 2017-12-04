@@ -1,8 +1,8 @@
 ---
-title: "Su di Me"
+title: "About Me"
 permalink: /about/
 ---
 <h2>{{ site.author.name }}</h2>
 <p>Bio: {{ site.author.bio_long }}<br>
-<aside>Genere: {{ site.author.gender }}
-<br>Località: {{ site.author.location }}</aside></p>
+<aside>Gender: {{ site.author.gender }}
+<br>Location: {{ site.author.location }}</aside></p>

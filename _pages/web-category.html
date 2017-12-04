@@ -1,0 +1,14 @@
+---
+layout: archive
+permalink: /web/
+title: "Archive of Pages"
+author_profile: true
+toc: true
+---
+
+{% for web in site.web %}
+  <h2><a href="{{ web.url }}">{{ web.title }}</a></h2>
+  <small>On {% if web.date %}{{ web.date | date_to_string }}{% endif %}{% if web.read_time %}<br>
+  <i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}{% endif %}</small>
+  <p>{{ web.excerpt }}</p>
+{% endfor %}
