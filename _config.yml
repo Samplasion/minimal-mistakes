@@ -9,13 +9,13 @@ minimal_mistakes_skin    : "dark" # "default", "air", "contrast", "dark", "dirt"
 include: ["_pages"]
 
 # Site Settings
-locale                   : "en"
-title                    : "SamplasionWeb"
+locale                   : "it"
+title                    : "SamplasionBlog"
 title_separator          : "-"
 name                     : "Samplasion"
-description              : "An amazing website."
+description              : "Il mio fantastico blog."
 url                      : "https://samplasion.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : "it" # the subpath of your site, e.g. "/blog"
 repository               : "Samplasion/samplasion.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "https://placebear.com/500/300" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : true # true, false (default)
@@ -23,7 +23,7 @@ words_per_minute         : 80
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
-    shortname            : samplasionweb # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : samplasionblog # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -86,12 +86,12 @@ analytics:
 author:
   name             : "Samplasion"
   avatar           : "/assets/images/author.gif"
-  bio              : "I am an aspirant developer."
-  bio_long         : "I am a 13-year aspirant developer from Rome. My passions are computer, Nintendo and anything computer- and modding-related."
+  bio              : "Sono un aspirante sviluppatore."
+  bio_long         : "Sono un aspirante sviluppatore tredicenne da Roma. Le mie passioni sono il computer, Nintendo e tutto ciò che riguarda il computer o il modding."
   gender           : "♂️"
-  location         : "Rome, Italy"
+  location         : "Roma, Italia"
   email            : "ercolino2004@gmail.com"
-  uri              : "https://samplasion.github.io/"
+  uri              : "https://samplasion.github.io/it"
   bitbucket        :
   codepen          : "samplasion"
   dribbble         :

@@ -1,19 +1,35 @@
 ---
-title: "Utilities"
+title: "Utility"
 toc: true
 permalink: /utils/
 author_profile: false
 ---
 
-<h2><span>Nintendo 3DS Block (BL) => MB/GB</span></h2>
-<input placeholder="BL" id="inBL" oninput="convert('bl', this.value, 'outMB1', 'outGB1', '')" onchange="convert('bl', this.value, 'outMB1', 'outGB1', '')"> -> <span id="outMB1"></span>MB / <span id="outGB1"></span> GB
-<script>
-function convert(from, value, mb, gb, bl) {
-	if(from=="bl"){
-		document.getElementById(mb).innerHTML=`${(value*128)*8}`
-  }else if(from=="mb"){
-    document.getElementById(mb).innerHTML=`${((value*128)*8)}`
-  }else{
-    document.getElementById(mb).innerHTML=`${((value*128)*8)}`
-  }
-}
+<h2><span>Nintendo 3DS Block (BL) => MB/GB</span></h2><small>Ruby</small>
+{% highlight ruby linenos %}
+def fromBl(bl)
+  resMB = bl / 8
+  resGB = resMB / 1024
+  return [resMB, resGB]
+end
+def fromMb(mb)
+  resBL = mb * 8
+  resGB = mb / 1028
+  return [resBL, resGB]
+end
+def fromGb(gb)
+  resBL = (gb * 1028) * 8
+  resMB = gb * 1028
+  return [resBL, resMB]
+end
+num = gets.auto_i
+todo = gets.chomp
+case todo
+	when "bl"
+		puts fromBl(num)
+	when "mb"
+		puts fromMb(num)
+	when "gb"
+		puts fromGb(num)
+end
+{% endhighlight %}
