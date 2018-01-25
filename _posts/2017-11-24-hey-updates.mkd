@@ -8,7 +8,7 @@ categories: code guides
 layout: single
 comments: true
 ---
-Updates here! First, I learned Ruby:
+Updates here! First, I learnt Ruby:
 {% highlight ruby %}
 def samplasionweb(url)
   puts url
