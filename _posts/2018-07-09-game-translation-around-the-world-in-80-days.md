@@ -2,9 +2,9 @@
 header:
   teaser: http://samplasion.github.io/assets/images/around-1.png
 title: "Game Translation: Around the World in 80 Days in Italian"
-date: 2017-11-24 21:32:00 +0100
-tags: code guide smm
-categories: code guides
+date: 2018-07-09 09:18:00 +0100
+tags: game-translation game games italian 
+categories: game-translation game translation
 layout: single
 comments: true
 ---
@@ -23,5 +23,5 @@ Screenshots
 Downloads
 =========
 
-[Zip file](https://mega.nz/#!Nwgzzajb!mmdxrQoNsKg4rklZdpOR7ss2mrZ4ZPvbGmjUeZ5Dubw)
-[Installer](https://mega.nz/#!tgxSXCRK!5ye4JjutRvRyS5C2Un8l7fQIsRLTG_aIJTucKJ6ItTs)
++ [Zip file](https://mega.nz/#!Nwgzzajb!mmdxrQoNsKg4rklZdpOR7ss2mrZ4ZPvbGmjUeZ5Dubw)
++ [Installer](https://mega.nz/#!tgxSXCRK!5ye4JjutRvRyS5C2Un8l7fQIsRLTG_aIJTucKJ6ItTs)
