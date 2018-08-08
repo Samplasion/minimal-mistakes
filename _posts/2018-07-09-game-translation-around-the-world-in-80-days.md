@@ -5,6 +5,13 @@ title: "Game Translation: Around the World in 80 Days in Italian"
 date: 2018-07-09 09:18:00 +0100
 tags: game-translation game games italian pc windows mac tutorial
 categories: game-translation game translation
+gallery:
+  - image_path: /assets/images/around-1.png
+  - image_path: /assets/images/around-2.png
+  - image_path: /assets/images/around-3.png
+  - image_path: /assets/images/around-4.png
+  - image_path: /assets/images/around-5.png
+  - image_path: /assets/images/around-6.png
 layout: single
 toc: true
 comments: true
@@ -14,12 +21,8 @@ I've made an Italian version of the game *Around the World in 80 Days*. It conta
 Screenshots
 ===========
 
-![Around the World in 80 Days in Italian](/assets/images/around-1.png) 
-![Around the World in 80 Days in Italian](/assets/images/around-2.png) 
-![Around the World in 80 Days in Italian](/assets/images/around-3.png) 
-![Around the World in 80 Days in Italian](/assets/images/around-4.png) 
-![Around the World in 80 Days in Italian](/assets/images/around-5.png) 
-![Around the World in 80 Days in Italian](/assets/images/around-6.png)
+{% include gallery caption="Around the World in 80 Days in Italian is beautiful. Is it just me?" %}
+
 
 Downloads
 =========
