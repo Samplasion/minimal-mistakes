@@ -37,7 +37,7 @@ Downloads
 
 ##### Installer
 1. Run the Around the World in 80 Days.exe installer.
-1. After finishing to install, go wher you installed the game, create a shortcut to the game.exe file and put it on the desktop.
+1. After finishing to install, go where you installed the game, create a shortcut to the game.exe file and put it on the desktop.
 
 #### Mac
 ##### ```.app``` Folder (for Big Fish Games)
