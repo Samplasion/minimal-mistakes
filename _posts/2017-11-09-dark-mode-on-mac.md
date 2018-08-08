@@ -1,6 +1,6 @@
 ---
 title: "Enable 'Dark Mode' on your Mac with this tool"
-tags: tools apple mac
+tags: tools apple mac tutorial
 categories: Apple
 date: 2017-11-09 19:18:00 +0100
 excerpt: "In this post, we'll see how to darken OS X/macOS apps in a cool way!"
