@@ -6,6 +6,7 @@ date: 2018-07-09 09:18:00 +0100
 tags: game-translation game games italian pc windows mac tutorial
 categories: game-translation game translation
 layout: single
+toc: true
 comments: true
 ---
 I've made an Italian version of the game *Around the World in 80 Days*. It contains the original files from the Italian Big Fish demo.
