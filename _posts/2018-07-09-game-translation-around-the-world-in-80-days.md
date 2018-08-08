@@ -12,8 +12,7 @@ gallery:
   - image_path: /assets/images/around-4.png
   - image_path: /assets/images/around-5.png
   - image_path: /assets/images/around-6.png
-layout: singl
-
+layout: single
 comments: true
 ---
 I've made an Italian version of the game *Around the World in 80 Days*. It contains the original files from the Italian Big Fish demo.
