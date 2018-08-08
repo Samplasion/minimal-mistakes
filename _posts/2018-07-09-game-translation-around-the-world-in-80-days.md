@@ -21,7 +21,7 @@ I've made an Italian version of the game *Around the World in 80 Days*. It conta
 Screenshots
 ===========
 
-{% include gallery caption="Around the World in 80 Days in Italian is beautiful. Is it just me?" %}
+{% include gallery caption="Around the World in 80 Days in Italian is beautiful. Or is it just me?" %}
 
 
 Downloads
