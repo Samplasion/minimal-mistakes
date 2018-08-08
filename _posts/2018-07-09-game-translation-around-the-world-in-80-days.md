@@ -33,7 +33,7 @@ Downloads
 
 1. Locate the game Around the World in 80 Days in ```/Applications```.
 1. Right click the game's icon and choose Show Package Contents.
-1. Copy the file/folder Around the World in 80 Days.app into Contents/Resources and replace the original.
+1. Copy the file/folder Around the World in 80 Days.app into ```Contents/Resources``` and replace the original.
 
 #### Resources Folder (for Playrix)
 
