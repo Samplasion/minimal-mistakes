@@ -16,6 +16,7 @@ layout: single
 comments: true
 ---
 I've made an Italian version of the game *Around the World in 80 Days*. It contains the original files from the Italian Big Fish demo.
+<!--more-->
 
 Screenshots
 ===========
