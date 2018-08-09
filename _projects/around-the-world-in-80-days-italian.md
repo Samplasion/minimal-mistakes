@@ -14,6 +14,7 @@ gallery:
   - image_path: /assets/images/around-6.png
 layout: single
 comments: true
+toc: true
 excerpt: "I've made an Italian version of the game *Around the World in 80 Days*. It contains the original files from the Italian Big Fish demo."
 ---
 
