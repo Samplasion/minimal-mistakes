@@ -8,12 +8,14 @@ main:
    url: /web/
   # - title: "Sample Collections"
   #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap.xml
+ - title: "Sitemap"
+   url: /sitemap.xml
  - title: "About"
    url: /about/
  - title: "Portfolio"
    url: /portfolio/
+ - title: "Projects"
+   url: /projects/
  - title: "Personal Blog"
    url: /it/
     
