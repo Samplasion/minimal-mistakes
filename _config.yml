@@ -298,6 +298,17 @@ defaults:
       comments: true
       share: true
       read_time: false
+  # _projects
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: single
+      author_profile: true
+      comments: true
+      share: true
+      read_time: false
+      toc: true
 
 # == COLLECTIONS == #
 collections:
