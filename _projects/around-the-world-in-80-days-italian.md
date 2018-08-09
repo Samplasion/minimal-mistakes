@@ -17,22 +17,19 @@ comments: true
 excerpt: "I've made an Italian version of the game *Around the World in 80 Days*. It contains the original files from the Italian Big Fish demo."
 ---
 
-Screenshots
-===========
+## Screenshots
 
 {% include gallery caption="Around the World in 80 Days in Italian is beautiful. Or is it just me?" %}
 
 
-Downloads
-=========
+## Downloads
 
 | Windows                                                                             | Mac                              |
 |-------------------------------------------------------------------------------------|----------------------------------|
 | [Zip File](https://mega.nz/#!Nwgzzajb!mmdxrQoNsKg4rklZdpOR7ss2mrZ4ZPvbGmjUeZ5Dubw)  | [```.app``` Folder (for Big Fish Games)](https://mega.nz/#!0sZg0SjJ!tXuuq92nVh6ik_NgtOtG8yOiDDPW1lOIsIBa-ZN7Mjo) |
 | [Installer](https://mega.nz/#!tgxSXCRK!5ye4JjutRvRyS5C2Un8l7fQIsRLTG_aIJTucKJ6ItTs) | [Resources Folder (for Playrix)](https://mega.nz/#!0wIQwCxD!rD_C5O88N5gn2dCpVFiqE7w3mMTHXZKvy0liEpI4zhc)   |
 
-Installation Tutorials
-======================
+## Installation Tutorials
 
 ### Windows
 #### Zip File
