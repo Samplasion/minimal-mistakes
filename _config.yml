@@ -321,7 +321,7 @@ collections:
   portfolio:
     output: true
     permalink: /me/:path/
-  projects
+  projects:
     output: true
     permalink: /projects/:path
 
