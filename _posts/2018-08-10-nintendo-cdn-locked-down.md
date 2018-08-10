@@ -1,7 +1,7 @@
 ---
 header:
   teaser: https://stefanobasile.com/wp-content/uploads/2018/06/3ds-freeshop-come-installare-giochi-direttamente-dal-3ds.jpg
-title: "Nintendo has locked down their CDN: is this the end of freeShop and Wii U USB Helper?"
+title: "Nintendo has been locking down their CDN: is this the end of freeShop and Wii U USB Helper?"
 date: 2018-08-10 15:50 +0100
 tags: game games Nintendo CDN server hack freeshop
 categories: Nintendo freeShop
