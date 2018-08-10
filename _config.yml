@@ -323,7 +323,7 @@ collections:
     permalink: /me/:path/
   projects:
     output: true
-    permalink: /projects/:path
+    permalink: /projects/:path/
 
 # Scripts
 head_scripts:
