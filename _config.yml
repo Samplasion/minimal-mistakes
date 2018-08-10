@@ -21,7 +21,7 @@ teaser                   : "https://placebear.com/500/300" # path of fallback te
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 80
 comments:
-  provider               : "staticman" # "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "staticman_v2" # "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : samplasionweb # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
