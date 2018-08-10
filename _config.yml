@@ -5,8 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "default" # "default", "air", "contrast", "dark", "dirt", "mint", "sunrise"
-include: ["_pages"]
+minimal_mistakes_skin    : "dark" # "default", "air", "contrast", "dark", "dirt", "mint", "sunrise"
+include: ["_pages", "_projects"]
 
 # Site Settings
 locale                   : "en"
@@ -21,7 +21,7 @@ teaser                   : "https://placebear.com/500/300" # path of fallback te
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 80
 comments:
-  provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "staticman_v2" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : samplasionweb # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
@@ -32,24 +32,24 @@ comments:
     num_posts            : # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
-  allowedFields          : # ['name', 'email', 'url', 'message']
-  branch                 : # "master"
-  commitMessage          : # "New comment."
-  filename               : # comment-{@timestamp}
-  format                 : # "yml"
-  moderation             : # true
-  path                   : # "/_data/comments/{options.slug}" (default)
-  requiredFields         : # ['name', 'email', 'message']
+  allowedFields          : ['name', 'email', 'url', 'message']
+  branch                 : "master"
+  commitMessage          : "New comment."
+  filename               : comment-{@timestamp}
+  format                 : "yml"
+  moderation             : true
+  path                   : "/_data/comments/{options.slug}" (default)
+  requiredFields         : ['name', 'email', 'message']
   transforms:
-    email                : # "md5"
+    email                : "md5"
   generatedFields:
     date:
-      type               : # "date"
+      type               : "date"
       options:
-        format           : # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format           : "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 reCaptcha:
-  siteKey                : # "6LeH3DcUAAAAAOhIQoUD0oodItN7xsTtby3VNtXW"
-  secret                 : # "6LeH3DcUAAAAANbYSS6M7Rb55GBRREl7DG9fTbvv"
+  siteKey                : "6LeH3DcUAAAAAOhIQoUD0oodItN7xsTtby3VNtXW"
+  secret                 : "6LeH3DcUAAAAANbYSS6M7Rb55GBRREl7DG9fTbvv"
 atom_feed:
   path                   : # blank (default) uses feed.xml
 
@@ -87,10 +87,10 @@ author:
   name             : "Samplasion"
   avatar           : "/assets/images/author.gif"
   bio              : "I am an aspirant developer."
-  bio_long         : "I am a 13-year aspirant developer from Rome. My passions are computer, Nintendo and anything computer- and modding-related."
+  bio_long         : "I am a 14-year aspirant developer from Rome. My passions are computer, Nintendo and anything computer- and modding-related."
   gender           : "♂️"
   location         : "Rome, Italy"
-  email            : "ercolino2004@gmail.com"
+  email            : "samplasion@gmail.com"
   uri              : "https://samplasion.github.io/"
   bitbucket        :
   codepen          : "samplasion"
@@ -151,7 +151,7 @@ keep_files:
   - .git
   - .svn
 encoding: "utf-8"
-markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md,txt,samplasion"
 
 
 # Conversion
@@ -181,7 +181,7 @@ sass:
 
 
 # Outputting
-permalink: /:categories/:title/
+permalink: /:date/:title/ # /:categories/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
 timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -321,6 +321,9 @@ collections:
   portfolio:
     output: true
     permalink: /me/:path/
+  projects
+    output: true
+    permalink: /projects/:path
 
 # Scripts
 head_scripts:
