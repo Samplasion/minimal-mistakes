@@ -20,7 +20,6 @@ repository               : "Samplasion/samplasion.github.io" # GitHub username/r
 teaser                   : "https://placebear.com/500/300" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 80
-search                   : true
 comments:
   provider               : "staticman_v2" # "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
@@ -53,6 +52,17 @@ reCaptcha:
   secret                 : "6LeH3DcUAAAAANbYSS6M7Rb55GBRREl7DG9fTbvv"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  
+search                   : true # true, false (default)
+search_full_content      : true # true, false (default)
+search_provider          : lunr # lunr (default), algolia
+algolia:
+  application_id         : # YOUR_APPLICATION_ID
+  index_name             : # YOUR_INDEX_NAME
+  search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
+  powered_by             : true # true (default), false
+# files_to_exclude:
+#   - _posts/2017-11-28-post-exclude-search.md
 
 # SEO Related
 google_site_verification : "vSTajh3KkqGbn_Ju6uA1pvdZUPnoLEkF8jdoYYScaEM"
