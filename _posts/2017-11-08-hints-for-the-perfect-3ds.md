@@ -12,7 +12,7 @@ featured: true
 **Hey!** This post is only a suggestion of my ideas. Feel free to comment yours, but don't criticize others' (including me) ideas.
 {: .notice--warning}
 
-{% include figure image_path="https://3ds.guide/images/home-page-feature.jpg" caption="(c) Plailect in <https://3ds.guide/>" %}
+{% include figure image_path="https://3ds.hacks.guide/images/home-page-feature.jpg" caption="(c) Plailect in <https://3ds.hacks.guide/>" %}
 
 ## The Base Console
 + New Nintendo 3DS
