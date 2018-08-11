@@ -18,8 +18,9 @@ url                      : "https://samplasion.github.io" # the base hostname & 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Samplasion/samplasion.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "https://placebear.com/500/300" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : true # true, false (default)
+breadcrumbs              : false # true, false (default)
 words_per_minute         : 80
+search                   : true
 comments:
   provider               : "staticman_v2" # "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
