@@ -1,6 +1,6 @@
 ---
 header:
-  teaser: https://3ds.guide/images/home-page-feature.jpg
+  teaser: https://3ds.hacks.guide/images/home-page-feature.jpg
 title: "My hints for the perfect Nintendo 3DS"
 tags: hints Nintendo cia
 categories: Nintendo
