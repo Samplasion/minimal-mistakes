@@ -33,6 +33,16 @@ $(document).ready(function(){
 
   // init smooth scroll
   $("a").smoothScroll({offset: -20});
+  
+  // Search toggle
+  $(".search__toggle").on("click", function() {
+    $(".search-content").toggleClass("is--visible");
+    $(".initial-content").toggleClass("is--hidden");
+    // set focus on input
+    setTimeout(function() {
+      $(".search-content input").focus();
+    }, 400);
+  });
 
   // add lightbox class to all image links
   $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.JPG'],a[href$='.png'],a[href$='.gif']").addClass("image-popup");
