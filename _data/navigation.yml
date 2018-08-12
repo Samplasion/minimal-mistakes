@@ -6,8 +6,8 @@ main:
    url: /categories/
  - title: "Archive of Pages"
    url: /web/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
+ - title: "Posts by Collections"
+   url: /collection-archive/
  - title: "Sitemap"
    url: /sitemap.xml
  - title: "About"
