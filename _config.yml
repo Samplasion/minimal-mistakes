@@ -5,7 +5,7 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
-minimal_mistakes_skin    : "dark" # "default", "air", "contrast", "dark", "dirt", "mint", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 include: ["_pages"]
 
 # Site Settings
@@ -53,16 +53,17 @@ reCaptcha:
 atom_feed:
   path                   : # blank (default) uses feed.xml
   
-search                   : true # true, false (default)
-search_full_content      : true # true, false (default)
-search_provider          : lunr # lunr (default), algolia
+search                   : # true, false (default)
+search_full_content      : # true, false (default)
+search_provider          : # lunr (default), algolia, google
 algolia:
   application_id         : # YOUR_APPLICATION_ID
   index_name             : # YOUR_INDEX_NAME
   search_only_api_key    : # YOUR_SEARCH_ONLY_API_KEY
-  powered_by             : true # true (default), false
-# files_to_exclude:
-#   - _posts/2017-11-28-post-exclude-search.md
+  powered_by             : # true (default), false
+google:
+  search_engine_id       : # YOUR_SEARCH_ENGINE_ID
+  instant_search         : # false (default), true
 
 # SEO Related
 google_site_verification : "vSTajh3KkqGbn_Ju6uA1pvdZUPnoLEkF8jdoYYScaEM"
