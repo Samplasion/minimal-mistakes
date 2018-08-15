@@ -33,7 +33,8 @@ layout: default
         </header>
       {% endunless %}
       
-      {% if page.excerpt and page.show_excerpt == true %}
+      {% assign sh = page.show_excerpt | default: true %}
+      {% if page.excerpt and sh %}
         <i>{{ page.excerpt }}</i><br />
       {% endif %}
 
