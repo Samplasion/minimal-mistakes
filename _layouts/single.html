@@ -32,6 +32,10 @@ layout: default
           {% endif %}
         </header>
       {% endunless %}
+      
+      {% if page.excerpt %}
+        <i>{{ page.excerpt }}</i>
+      {% endif %}
 
       <section class="page__content" itemprop="text">
         {% if page.toc %}
