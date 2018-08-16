@@ -32,13 +32,6 @@ layout: default
           {% endif %}
         </header>
       {% endunless %}
-      
-      {% assign sh = page.show_excerpt | default: true %}
-      {% if page.excerpt and sh %}
-        {% unless content contains page.excerpt %}
-          <i>{{ page.excerpt }}</i><br />
-        {% endunless %}
-      {% endif %}
 
       <section class="page__content" itemprop="text">
         {% if page.toc %}
