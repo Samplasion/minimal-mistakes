@@ -35,7 +35,9 @@ layout: default
       
       {% assign sh = page.show_excerpt | default: true %}
       {% if page.excerpt and sh %}
-        <i>{{ page.excerpt }}</i><br />
+        {% unless content contains page.excerpt %}
+          <i>{{ page.excerpt }}</i><br />
+        {% endunless %}
       {% endif %}
 
       <section class="page__content" itemprop="text">
