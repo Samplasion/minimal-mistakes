@@ -18,7 +18,7 @@ url                      : "https://samplasion.github.io" # the base hostname & 
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "Samplasion/samplasion.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : "https://placebear.com/500/300" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-breadcrumbs              : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 80
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -98,7 +98,7 @@ analytics:
 author:
   name             : "Samplasion"
   avatar           : "/assets/images/author.gif"
-  bio              : "I am an aspirant developer."
+  bio              : "It's a spicy meatball!"
   bio_long         : "I am a 14-year aspirant developer from Rome. My passions are computer, Nintendo and anything computer- and modding-related."
   gender           : "♂️"
   location         : "Rome, Italy"
@@ -119,7 +119,7 @@ author:
   linkedin         : # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
+  stackoverflow    : "9665725/samplasion" # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : "76561198247486442" # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
   twitter          : "SamplasionTrue"
@@ -193,7 +193,7 @@ sass:
 
 
 # Outputting
-permalink: /:year/:month/:day/:title # /:categories/:title
+permalink: /:categories/:title
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/ # something different breaks paginator links
 timezone: Europe/Rome # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
@@ -232,17 +232,23 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+month_archive:
+  type: liquid
+  path: /months/
 # https://github.com/jekyll/jekyll-archives
 jekyll-archives:
   enabled:
     - categories
     - tags
+    - months
   layouts:
     category: archive-taxonomy
     tag: archive-taxonomy
+    month: archive-taxonomy
   permalinks:
     category: /categories/:name/
     tag: /tags/:name/
+    month: /months/:month
 
 
 # HTML Compression
