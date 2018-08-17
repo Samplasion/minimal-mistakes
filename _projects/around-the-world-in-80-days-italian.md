@@ -1,5 +1,7 @@
 ---
 title: "Game Translation: Around the World in 80 Days in Italian"
+header:
+  teaser: /assets/images/around-1.png
 gallery:
   - image_path: /assets/images/around-1.png
   - image_path: /assets/images/around-2.png
@@ -7,7 +9,7 @@ gallery:
   - image_path: /assets/images/around-4.png
   - image_path: /assets/images/around-5.png
   - image_path: /assets/images/around-6.png
-excerpt: "I've made an Italian version of the game *Around the World in 80 Days*. It contains the original files from the Italian Big Fish demo."
+excerpt: "I've made an Italian version of the game Around the World in 80 Days. It contains the original files from the Italian Big Fish demo."
 ---
 
 ## Screenshots
