@@ -45,7 +45,7 @@ def gb_to_mb(gb)
 end
 ```
 
-We can wrap ‘em up in a ```module```, like so:
+We can wrap them up in a ```module```, like so:
 
 ```rb
 module Blockconverter
@@ -59,8 +59,12 @@ And use it like so:
 puts Blockconverter::gb_to_bl(4).to_s + " blocks" # => "32768 blocks"
 ```
 
-Of course we could wrap the returned integer in an interpolated string, like:
+We could wrap the returned integer in an interpolated string, like:
 
 ```rb
-puts "#{Blockconverter::gb_to_bl(4).to_s} blocks" # => "32768 blocks"
+puts "#{Blockconverter::gb_to_bl(4)} blocks" # => "32768 blocks"
 ```
+
+Of course there’s no advantage in taking either way, so feel free to choose the one that best suits you.
+
+Let me know in the comments how you used this code and/or how you updated it!
