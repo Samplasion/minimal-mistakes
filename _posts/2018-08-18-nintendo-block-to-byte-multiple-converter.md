@@ -45,7 +45,7 @@ def gb_to_mb(gb)
 end
 ```
 
-We can wrap ‘em up in a ```Module```, like so:
+We can wrap ‘em up in a ```module```, like so:
 
 ```rb
 module Blockconverter
