@@ -62,5 +62,5 @@ puts Blockconverter::gb_to_bl(4).to_s + " blocks" # => "32768 blocks"
 Of course we could wrap the returned integer in an interpolated string, like:
 
 ```rb
-puts "#{Blockconverter::gb_to_bl(4).to_s} block" # => "32768 blocks"
+puts "#{Blockconverter::gb_to_bl(4).to_s} blocks" # => "32768 blocks"
 ```
