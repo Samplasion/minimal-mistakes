@@ -44,3 +44,23 @@ def gb_to_mb(gb)
   return gb * 1024
 end
 ```
+
+We can wrap ‘em up in a ```Module```, like so:
+
+```rb
+Module Blockconverter
+  # functions
+end
+```
+
+And use it like so:
+
+```rb
+puts Blockconverter::gb_to_bl(4).to_s + " blocks" # => "32768 blocks"
+```
+
+Of course we could wrap the returned integer in an interpolated string, like:
+
+```rb
+puts "#{Blockconverter::gb_to_bl(4).to_s} block" # => "32768 blocks"
+```
