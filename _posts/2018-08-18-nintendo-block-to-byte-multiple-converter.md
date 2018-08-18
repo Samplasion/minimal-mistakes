@@ -12,7 +12,7 @@ excerpt: "In this post we'll make a block converter in Ruby."
 
 To make a block converter, we need to know what the conversions are:
 
-|/\\/\\/\\/\\| MB | GB |
+|——| MB | GB |
 |--------|----|----|
 | Block | 1 MB = 8 blocks | 1 GB = 8192 blocks |
 
