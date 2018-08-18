@@ -48,7 +48,7 @@ end
 We can wrap ‘em up in a ```Module```, like so:
 
 ```rb
-Module Blockconverter
+module Blockconverter
   # functions
 end
 ```
