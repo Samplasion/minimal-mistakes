@@ -41,7 +41,8 @@
   (twitter, $twitter-color),
   (google-plus, $google-plus-color),
   (reddit, $reddit-color),
-  (linkedin, $linkedin-color);
+  (linkedin, $linkedin-color),
+  (pinterest, $pinterest-color);
 
   @each $buttoncolor, $color in $buttoncolors {
     &--#{$buttoncolor} {
