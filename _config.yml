@@ -97,7 +97,7 @@ analytics:
 # Site Author
 author:
   name             : "Samplasion"
-  avatar           : "/assets/images/author.gif"
+  avatar           : "/assets/images/avatar.png"
   bio              : "It's a spicy meatball!"
   bio_long         : "I am a 14-year aspirant developer from Rome. My passions are computer, Nintendo and anything computer- and modding-related."
   gender           : "♂️"
