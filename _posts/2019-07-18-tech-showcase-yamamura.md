@@ -23,7 +23,7 @@ It didn't go well at first. Umm, let's say Akairo outputs some cryptic error mes
 
 Anyways, the second problem we had was for audio playing. It was overall pretty buggy, music would end before actually reaching the end or it wouldn't start at all. The issue was fixed by switching to the module `ytdl-core-discord`, which was purposefully made for bots. I remember being pretty happy it finally worked.
 
-![Did you mean](/assets/images/yamamura-1.jpg){: .align-right}
+![Similar commands](/assets/images/yamamura-2.jpg){: .align-right}
 Porting and development continued smoothly, and the bot is constantly evolving. As of the writing of this article, the latest feature is "similar commands" which means that if you make a mistake while typing out a command or type out an invalid command, it'll give you a list of actual commands based on what you tried to execute.
 
 To wrap things up, I want to thank NightYoshi370 for his help during the years and for his help in writing this article. If you enjoyed this article, why not invite the bot and check what awesome other features Yamamura has to offer? You can do so by [visiting the Yamamura Website](https://yamamura-bot.tk). I hope to see you soon!
